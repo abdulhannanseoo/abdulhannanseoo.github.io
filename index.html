@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abdul Hannan SEO | Digital Marketing & SEO Specialist</title>
+<meta name="description" content="Abdul Hannan SEO helps businesses boost Google rankings, drive targeted organic traffic and grow online revenue.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body{font-family:'Open Sans',sans-serif;color:#272829;background:#fff}
+h1,h2,h3,.nav-link{font-family:'Poppins',sans-serif}
+.sec-title h2{font-size:2rem;font-weight:700;position:relative;padding-bottom:12px;color:#050d18}
+.sec-title h2:after{content:"";position:absolute;left:0;bottom:0;width:60px;height:3px;background:#149ddd}
+.nav-link{display:flex;align-items:center;gap:12px;padding:11px 14px;color:#a8a9b4;border-radius:6px;font-size:15px;transition:.2s}
+.nav-link:hover,.nav-link.active{color:#fff;background:rgba(20,157,221,.18)}
+.nav-link.active svg,.nav-link:hover svg{color:#149ddd}
+.reveal{opacity:0;transform:translateY(20px);transition:.6s}
+.reveal.show{opacity:1;transform:none}
+.bar{height:8px;background:#dce1e7;border-radius:4px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:#149ddd;transition:width 1.2s}
+.card-hover{transition:.25s}.card-hover:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(5,13,24,.12)}
+.hero{background:linear-gradient(120deg,rgba(4,11,20,.93),rgba(4,11,20,.72)),radial-gradient(circle at 80% 20%,#149ddd55,transparent 50%),#040b14}
+input,select,textarea{border:1px solid #d5dbe3;border-radius:6px;padding:10px 14px;width:100%;font-size:14px;outline:none;background:#fff}
+input:focus,select:focus,textarea:focus{border-color:#149ddd}
+</style>
+</head>
+<body>
+
+<!-- Mobile top bar -->
+<header class="lg:hidden fixed inset-x-0 top-0 z-40 bg-[#040b14] flex items-center justify-between px-4 h-14">
+  <a href="#home" class="flex items-center gap-2 text-white font-semibold">
+    <img class="avatar w-8 h-8 rounded-full object-cover border-2 border-[#149ddd]" src="abdul-hannan.jpg" alt="Abdul Hannan SEO">Abdul Hannan SEO</a>
+  <button id="menuBtn" aria-label="Menu" class="text-white p-2"><svg width="26" height="26" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h20M3 13h20M3 20h20"/></svg></button>
+</header>
+
+<!-- Sidebar -->
+<aside id="sidebar" class="fixed inset-y-0 left-0 z-50 w-64 bg-[#040b14] -translate-x-full lg:translate-x-0 transition-transform duration-300 flex flex-col px-4 py-8 overflow-y-auto">
+  <div class="text-center mb-6">
+    <img class="avatar w-24 h-24 rounded-full object-cover mx-auto border-4 border-white/20" src="abdul-hannan.jpg" alt="Abdul Hannan">
+    <h1 class="text-white text-xl font-semibold mt-3">Abdul Hannan SEO</h1>
+    <div class="flex justify-center gap-2 mt-3 social"></div>
+  </div>
+  <nav class="space-y-1" id="nav"></nav>
+</aside>
+<div id="overlay" class="fixed inset-0 bg-black/50 z-40 hidden lg:hidden"></div>
+
+<main class="lg:ml-64 pt-14 lg:pt-0">
+
+<!-- HERO -->
+<section id="home" class="hero min-h-[88vh] flex items-center px-6 sm:px-12 py-20 text-white">
+  <div class="max-w-5xl w-full grid md:grid-cols-[1fr_auto] gap-10 items-center">
+    <div>
+      <p class="text-[#149ddd] font-semibold mb-3 tracking-wide">WELCOME TO MY PORTFOLIO</p>
+      <h1 class="text-3xl sm:text-5xl font-bold leading-tight">Hi, I'm Abdul Hannan SEO — <span class="text-[#149ddd]">Digital Marketing & SEO Specialist</span></h1>
+      <p class="mt-5 text-lg text-gray-300 max-w-2xl">I help businesses boost their Google rankings, drive targeted organic traffic, and grow online revenue through data-driven SEO strategies and high-converting web design.</p>
+      <p class="mt-4 text-xl font-medium">I'm <span id="typed" class="text-[#149ddd]"></span><span class="animate-pulse">|</span></p>
+      <div class="flex flex-wrap gap-3 mt-8">
+        <a href="#contact" class="bg-[#149ddd] hover:bg-[#0c7fb8] px-7 py-3 rounded-full font-semibold transition">Hire Me</a>
+        <a href="https://wa.me/8801353384574" target="_blank" rel="noopener" class="border border-white/40 hover:bg-white hover:text-[#040b14] px-7 py-3 rounded-full font-semibold transition">Chat on WhatsApp</a>
+      </div>
+      <div class="flex gap-3 mt-8 social"></div>
+    </div>
+    <img class="avatar w-48 h-48 md:w-64 md:h-64 rounded-3xl object-cover border-4 border-[#149ddd]/60 shadow-2xl mx-auto" src="abdul-hannan.jpg" alt="Abdul Hannan SEO profile photo">
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="px-6 sm:px-12 py-20">
+  <div class="max-w-5xl reveal">
+    <div class="sec-title mb-8"><h2>About</h2></div>
+    <p class="text-gray-600 mb-10">Trusted SEO partner for international freelance clients — transparent reporting, white-hat methods and measurable growth.</p>
+    <div class="grid md:grid-cols-[260px_1fr] gap-10">
+      <img class="avatar w-full max-w-[260px] rounded-2xl object-cover shadow-lg" src="abdul-hannan.jpg" alt="Abdul Hannan SEO">
+      <div>
+        <h3 class="text-2xl font-semibold text-[#149ddd] mb-3">SEO Expert & Web Designer</h3>
+        <p class="italic text-gray-600 mb-5">With 8 years of hands-on experience, I combine technical SEO, content strategy and clean design to turn searches into customers.</p>
+        <ul class="grid sm:grid-cols-2 gap-3 text-sm">
+          <li><b>Name:</b> Abdul Hannan SEO</li>
+          <li><b>Experience:</b> 8 Years</li>
+          <li><b>Email:</b> <a class="text-[#149ddd]" href="mailto:abdulhannanseoo@gmail.com">abdulhannanseoo@gmail.com</a></li>
+          <li><b>Phone:</b> +880 1353-384574</li>
+          <li><b>City:</b> Nangalkot, Cumilla, Bangladesh</li>
+          <li><b>Freelance:</b> Available</li>
+        </ul>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 text-center">
+      <div><b class="counter text-4xl text-[#050d18]" data-n="8">0</b><p class="text-gray-500 text-sm">Years Experience</p></div>
+      <div><b class="counter text-4xl text-[#050d18]" data-n="100">0</b><p class="text-gray-500 text-sm">Projects Delivered</p></div>
+      <div><b class="counter text-4xl text-[#050d18]" data-n="50">0</b><p class="text-gray-500 text-sm">Happy Clients</p></div>
+      <div><b class="counter text-4xl text-[#050d18]" data-n="7">0</b><p class="text-gray-500 text-sm">Core Services</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="px-6 sm:px-12 py-20 bg-[#f5f8fd]">
+  <div class="max-w-5xl reveal">
+    <div class="sec-title mb-8"><h2>Skills</h2></div>
+    <div class="grid md:grid-cols-2 gap-x-10 gap-y-6" id="skillList"></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="px-6 sm:px-12 py-20">
+  <div class="max-w-5xl reveal">
+    <div class="sec-title mb-8"><h2>Services</h2></div>
+    <p class="text-gray-600 mb-10">End-to-end search growth services built for ROI.</p>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="serviceList"></div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="px-6 sm:px-12 py-20 bg-[#f5f8fd]">
+  <div class="max-w-5xl reveal">
+    <div class="sec-title mb-8"><h2>Portfolio / Case Studies</h2></div>
+    <div class="flex flex-wrap gap-2 mb-8" id="filters"></div>
+    <div class="grid md:grid-cols-3 gap-6" id="caseList"></div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="px-6 sm:px-12 py-20">
+  <div class="max-w-5xl reveal">
+    <div class="sec-title mb-8"><h2>Client Feedback</h2></div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <blockquote class="p-6 rounded-xl shadow card-hover bg-white border text-sm text-gray-600 italic">“Our map-pack rankings improved within weeks. Clear communication and honest reporting.”<footer class="mt-4 not-italic font-semibold text-[#050d18]">— Local Business Owner</footer></blockquote>
+      <blockquote class="p-6 rounded-xl shadow card-hover bg-white border text-sm text-gray-600 italic">“The keyword research uncovered low-competition terms that doubled our organic sales.”<footer class="mt-4 not-italic font-semibold text-[#050d18]">— E-Commerce Store Owner</footer></blockquote>
+      <blockquote class="p-6 rounded-xl shadow card-hover bg-white border text-sm text-gray-600 italic">“Our videos finally rank on page one of YouTube search. Highly recommended.”<footer class="mt-4 not-italic font-semibold text-[#050d18]">— YouTube Creator</footer></blockquote>
+    </div>
+    <p class="text-xs text-gray-400 mt-3">Replace with your real client reviews.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="px-6 sm:px-12 py-20 bg-[#f5f8fd]">
+  <div class="max-w-5xl reveal">
+    <div class="sec-title mb-8"><h2>Contact</h2></div>
+    <div class="grid md:grid-cols-5 gap-8">
+      <div class="md:col-span-2 bg-white rounded-xl shadow p-6 space-y-6">
+        <div><h3 class="font-semibold">Name</h3><p class="text-gray-600 text-sm">Abdul Hannan SEO</p></div>
+        <div><h3 class="font-semibold">Address</h3><p class="text-gray-600 text-sm">Nangalkot, Cumilla, Bangladesh</p></div>
+        <div><h3 class="font-semibold">Email</h3><a class="text-[#149ddd] text-sm break-all" href="mailto:abdulhannanseoo@gmail.com">abdulhannanseoo@gmail.com</a></div>
+        <div><h3 class="font-semibold">WhatsApp / Phone</h3><a class="text-[#149ddd] text-sm" href="tel:+8801353384574">+880 1353-384574</a>
+          <a href="https://wa.me/8801353384574" target="_blank" rel="noopener" class="mt-3 flex items-center justify-center gap-2 bg-[#25d366] hover:bg-[#1ebe5b] text-white font-semibold py-2.5 rounded-full text-sm transition">Chat on WhatsApp</a></div>
+      </div>
+      <form id="contactForm" class="md:col-span-3 bg-white rounded-xl shadow p-6 space-y-4">
+        <div class="grid sm:grid-cols-2 gap-4">
+          <input name="name" placeholder="Your Name" required>
+          <input name="email" type="email" placeholder="Your Email" required>
+        </div>
+        <select name="service" required>
+          <option value="">Service Needed</option>
+          <option>On-Page & Technical SEO</option><option>Off-Page SEO & Quality Backlinks</option>
+          <option>Advanced Keyword Research</option><option>Local SEO & Google Citations</option>
+          <option>YouTube Video SEO</option><option>Web Design & Landing Pages</option>
+          <option>Organic & Paid Ads Management</option>
+        </select>
+        <textarea name="message" rows="6" placeholder="Message" required></textarea>
+        <button class="bg-[#149ddd] hover:bg-[#0c7fb8] text-white font-semibold px-8 py-3 rounded-full transition">Send Message</button>
+        <p id="formMsg" class="text-sm text-green-600 hidden">Opening your email app… thank you!</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="px-6 sm:px-12 py-10 text-center text-sm text-gray-500">
+  <div class="flex justify-center gap-3 mb-4 social dark"></div>
+  © <span id="year"></span> <b>Abdul Hannan SEO</b>. All Rights Reserved.
+</footer>
+</main>
+
+<a href="#home" id="toTop" class="fixed bottom-5 right-5 w-10 h-10 rounded-full bg-[#149ddd] text-white flex items-center justify-center opacity-0 pointer-events-none transition z-40" aria-label="Back to top">↑</a>
+
+<script>
+(function () {
+  'use strict';
+  var ICON = {
+    home:'<path d="M3 11l9-8 9 8v10a1 1 0 01-1 1h-5v-7H9v7H4a1 1 0 01-1-1z"/>',
+    user:'<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0116 0"/>',
+    skills:'<path d="M4 20V10M12 20V4M20 20v-7"/>',
+    services:'<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V4h6v3"/>',
+    folder:'<path d="M3 6h6l2 2h10v11H3z"/>',
+    star:'<path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/>',
+    mail:'<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>',
+    search:'<circle cx="11" cy="11" r="7"/><path d="M21 21l-5-5"/>',
+    link:'<path d="M10 14a5 5 0 007 0l3-3a5 5 0 00-7-7l-1 1M14 10a5 5 0 00-7 0l-3 3a5 5 0 007 7l1-1"/>',
+    key:'<circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M16 7l3 3"/>',
+    pin:'<path d="M12 22s7-6.5 7-12a7 7 0 10-14 0c0 5.5 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/>',
+    video:'<rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9l5 3-5 3z"/>',
+    design:'<rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/>',
+    ads:'<path d="M3 12l14-7v14zM17 9a4 4 0 010 6"/>'
+  };
+  function svg(name, size, cls) {
+    return '<svg class="' + (cls || '') + '" width="' + size + '" height="' + size + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">' + ICON[name] + '</svg>';
+  }
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+
+  /* Avatar fallback */
+  var fallbackAvatar = 'data:image/svg+xml;utf8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect width="200" height="200" fill="#149ddd"/><circle cx="100" cy="78" r="38" fill="#fff"/><path d="M30 190a70 70 0 01140 0z" fill="#fff"/></svg>');
+  $$('.avatar').forEach(function (img) {
+    img.addEventListener('error', function () { if (img.src !== fallbackAvatar) img.src = fallbackAvatar; });
+  });
+
+  /* Navigation */
+  var navItems = [['home','home','Home'],['about','user','About'],['skills','skills','Skills'],['services','services','Services'],['portfolio','folder','Portfolio'],['testimonials','star','Feedback'],['contact','mail','Contact']];
+  $('#nav').innerHTML = navItems.map(function (n) {
+    return '<a href="#' + n[0] + '" class="nav-link">' + svg(n[1], 18) + n[2] + '</a>';
+  }).join('');
+  var sidebar = $('#sidebar'), overlay = $('#overlay');
+  function toggleMenu(open) {
+    sidebar.classList.toggle('-translate-x-full', !open);
+    overlay.classList.toggle('hidden', !open);
+  }
+  $('#menuBtn').addEventListener('click', function () { toggleMenu(sidebar.classList.contains('-translate-x-full')); });
+  overlay.addEventListener('click', function () { toggleMenu(false); });
+  $$('#nav a').forEach(function (a) { a.addEventListener('click', function () { toggleMenu(false); }); });
+  document.documentElement.style.scrollBehavior = 'smooth';
+
+  /* Social icons */
+  var socials = [
+    ['https://facebook.com/abdulhannanseoo','Facebook','<path d="M14 8h3V4h-3a4 4 0 00-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8z" fill="currentColor" stroke="none"/>'],
+    ['https://linkedin.com/in/abdulhannanseoo','LinkedIn','<path d="M5 9h3v11H5zM6.5 4a1.8 1.8 0 110 3.6 1.8 1.8 0 010-3.6zM10 9h3v1.6c.6-1 1.8-1.9 3.5-1.9 3 0 3.5 2 3.5 4.6V20h-3v-5.8c0-1.4 0-2.7-1.7-2.7s-2 1.3-2 2.6V20h-3z" fill="currentColor" stroke="none"/>']
+  ];
+  $$('.social').forEach(function (box) {
+    var dark = box.classList.contains('dark');
+    box.innerHTML = socials.map(function (s) {
+      return '<a href="' + s[0] + '" target="_blank" rel="noopener" aria-label="' + s[1] + '" class="w-9 h-9 rounded-full flex items-center justify-center transition hover:bg-[#149ddd] hover:text-white ' + (dark ? 'bg-[#e4e9f0] text-[#050d18]' : 'bg-white/10 text-white') + '"><svg width="18" height="18" viewBox="0 0 24 24">' + s[2] + '</svg></a>';
+    }).join('');
+  });
+
+  /* Typed text */
+  var roles = ['an SEO Expert','a Digital Marketer','a Local SEO Specialist','a Web Designer'];
+  var roleIdx = 0, charIdx = 0, deleting = false, typedEl = $('#typed');
+  (function tick() {
+    var word = roles[roleIdx];
+    charIdx += deleting ? -1 : 1;
+    typedEl.textContent = word.slice(0, charIdx);
+    var delay = deleting ? 40 : 90;
+    if (!deleting && charIdx === word.length) { deleting = true; delay = 1500; }
+    else if (deleting && charIdx === 0) { deleting = false; roleIdx = (roleIdx + 1) % roles.length; delay = 300; }
+    setTimeout(tick, delay);
+  })();
+
+  /* Skills */
+  var skills = [['On-Page & Technical SEO',95],['Off-Page SEO & Link Building',90],['Keyword Research',95],['Local SEO & Citations',92],['YouTube SEO',85],['Web Design (HTML/Tailwind)',85]];
+  $('#skillList').innerHTML = skills.map(function (s) {
+    return '<div><div class="flex justify-between text-sm font-semibold mb-1"><span>' + s[0] + '</span><span>' + s[1] + '%</span></div><div class="bar"><i data-w="' + s[1] + '"></i></div></div>';
+  }).join('');
+
+  /* Services */
+  var services = [
+    ['search','On-Page & Technical SEO','Site audit, meta tags, speed optimization.'],
+    ['link','Off-Page SEO & Quality Backlinks','High-authority link building & outreach.'],
+    ['key','Advanced Keyword Research','Low-competition, high-intent keyword discovery.'],
+    ['pin','Local SEO & Google Citations','GMB optimization & local directory listings.'],
+    ['video','YouTube Video SEO','Video ranking, tags, and organic channel growth.'],
+    ['design','Web Design & Landing Pages','Responsive, SEO-friendly modern websites.'],
+    ['ads','Organic & Paid Ads Management','Targeted ad campaigns for maximum ROI.']
+  ];
+  $('#serviceList').innerHTML = services.map(function (s) {
+    return '<div class="card-hover bg-white border rounded-xl p-6"><div class="w-12 h-12 rounded-full bg-[#149ddd] text-white flex items-center justify-center mb-4">' + svg(s[0], 22) + '</div><h3 class="font-semibold text-lg mb-2">' + s[1] + '</h3><p class="text-gray-600 text-sm">' + s[2] + '</p></div>';
+  }).join('');
+
+  /* Case studies */
+  var cases = [
+    ['Local SEO','Local Business Google Map & Citation Ranking','Optimized Google Business Profile and built consistent NAP citations to lift local map-pack visibility and calls.',['Map-pack Top 3','Citations','More Calls'],'#149ddd'],
+    ['On-Page SEO','E-Commerce Keyword Research & On-Page Optimization','Found low-competition product keywords and optimized titles, meta, headings and category pages for sales.',['Keywords','On-Page','Organic Sales'],'#0c7fb8'],
+    ['YouTube SEO','YouTube Channel Organic Growth & Video Ranking','Optimized titles, tags and descriptions to rank videos in YouTube and Google search and grow the channel.',['Video Ranking','Tags','Subscribers'],'#050d18']
+  ];
+  var cats = ['All'].concat(cases.map(function (c) { return c[0]; }));
+  $('#filters').innerHTML = cats.map(function (c, i) {
+    return '<button data-cat="' + c + '" class="filter px-4 py-1.5 rounded-full text-sm font-semibold border transition ' + (i === 0 ? 'bg-[#149ddd] text-white border-[#149ddd]' : 'bg-white text-gray-600') + '">' + c + '</button>';
+  }).join('');
+  $('#caseList').innerHTML = cases.map(function (c) {
+    return '<article data-cat="' + c[0] + '" class="case card-hover bg-white rounded-xl overflow-hidden border"><div class="h-36 flex items-center justify-center text-white" style="background:' + c[4] + '">' + svg(c[0] === 'Local SEO' ? 'pin' : c[0] === 'On-Page SEO' ? 'search' : 'video', 52) + '</div><div class="p-5"><span class="text-xs font-bold text-[#149ddd] uppercase">' + c[0] + '</span><h3 class="font-semibold mt-1 mb-2">' + c[1] + '</h3><p class="text-sm text-gray-600 mb-3">' + c[2] + '</p><div class="flex flex-wrap gap-2">' + c[3].map(function (t) { return '<span class="text-xs bg-[#eef6fb] text-[#0c7fb8] px-2 py-1 rounded">' + t + '</span>'; }).join('') + '</div></div></article>';
+  }).join('');
+  $$('.filter').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      $$('.filter').forEach(function (b) { b.className = 'filter px-4 py-1.5 rounded-full text-sm font-semibold border transition bg-white text-gray-600'; });
+      btn.className = 'filter px-4 py-1.5 rounded-full text-sm font-semibold border transition bg-[#149ddd] text-white border-[#149ddd]';
+      $$('.case').forEach(function (c) { c.style.display = (btn.dataset.cat === 'All' || c.dataset.cat === btn.dataset.cat) ? '' : 'none'; });
+    });
+  });
+
+  /* Contact form -> opens email client with prefilled details */
+  $('#contactForm').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var f = e.target;
+    var subject = 'Inquiry: ' + f.service.value;
+    var body = 'Name: ' + f.name.value + '\nEmail: ' + f.email.value + '\nService: ' + f.service.value + '\n\n' + f.message.value;
+    $('#formMsg').classList.remove('hidden');
+    window.location.href = 'mailto:abdulhannanseoo@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    f.reset();
+  });
+
+  /* Scroll effects (no variable named "top" anywhere) */
+  var navLinks = $$('#nav a'), sectionEls = navItems.map(function (n) { return document.getElementById(n[0]); });
+  var backBtn = $('#toTop');
+  function onScroll() {
+    var scrollPos = window.pageYOffset + 140;
+    var activeIdx = 0;
+    sectionEls.forEach(function (sec, i) { if (sec.offsetTop <= scrollPos) activeIdx = i; });
+    navLinks.forEach(function (l, i) { l.classList.toggle('active', i === activeIdx); });
+    var showBtn = window.pageYOffset > 400;
+    backBtn.style.opacity = showBtn ? '1' : '0';
+    backBtn.style.pointerEvents = showBtn ? 'auto' : 'none';
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* Reveal, skill bars, counters */
+  function runCounter(el) {
+    var target = +el.dataset.n, cur = 0, step = Math.max(1, Math.ceil(target / 50));
+    var t = setInterval(function () { cur += step; if (cur >= target) { cur = target; clearInterval(t); } el.textContent = cur + (target >= 50 ? '+' : ''); }, 30);
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (en) {
+      if (!en.isIntersecting) return;
+      en.target.classList.add('show');
+      $$('.bar i', en.target).forEach(function (b) { b.style.width = b.dataset.w + '%'; });
+      $$('.counter', en.target).forEach(function (c) { if (!c.dataset.done) { c.dataset.done = 1; runCounter(c); } });
+      io.unobserve(en.target);
+    });
+  }, { threshold: 0.12 });
+  $$('.reveal').forEach(function (el) { io.observe(el); });
+
+  $('#year').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
